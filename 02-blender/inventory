@@ -1,0 +1,6 @@
+[blender]
+ubuntu-do-node-01 ansible_host=157.230.208.127
+ubuntu-do-node-02 ansible_host=157.230.223.94
+
+[blender:vars]
+ansible_python_interpreter=/usr/bin/python3

@@ -1,0 +1,5 @@
+create_user: jarednielsen
+
+ssh_port: 5995
+
+copy_local_key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
